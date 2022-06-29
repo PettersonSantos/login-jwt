@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  app:
+    container_name: app-jwt
+
+  db:
+    image: postgres:9.4
+    restart: always
+    tty: true
+    volumes:
+      - .pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=pass
+    ports:
+      - "5432:5432"
