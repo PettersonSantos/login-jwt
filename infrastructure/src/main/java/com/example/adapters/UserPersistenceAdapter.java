@@ -3,7 +3,7 @@ package com.example.adapters;
 import com.example.data.UsersDto;
 import com.example.entity.Users;
 import com.example.mappers.UserMappers;
-import com.example.ports.on.UserPersistencePort;
+import com.example.ports.out.UserPersistencePort;
 import com.example.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

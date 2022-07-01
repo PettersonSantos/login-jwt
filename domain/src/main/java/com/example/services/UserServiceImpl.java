@@ -2,7 +2,7 @@ package com.example.services;
 
 import com.example.data.UsersDto;
 import com.example.ports.in.UserServicePort;
-import com.example.ports.on.UserPersistencePort;
+import com.example.ports.out.UserPersistencePort;
 
 public class UserServiceImpl implements UserServicePort {
 
