@@ -1,5 +1,6 @@
 package com.example.controller;
 
+import com.example.common.RequestMappings;
 import com.example.Request.JwtRequest;
 import com.example.Response.JwtResponse;
 import com.example.configuration.JwtTokenUtil;

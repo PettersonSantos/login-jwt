@@ -1,7 +1,7 @@
 package com.example.service;
 
-import com.ruraldirect.data.users.UsersDto;
-import com.ruraldirect.ports.in.users.UsersServicePort;
+import com.example.data.UsersDto;
+import com.example.ports.in.UserServicePort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 @Service
 public class JwtUserDetailsService implements UserDetailsService {
     @Autowired
-    private UserSer port;
+    private UserServicePort port;
 
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
